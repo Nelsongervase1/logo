@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+}
+
+.header{
+    padding: 0 45px 0 45px;
+    background-color: #283593;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease-in-out;
+    display: block;
+
+}
+
+.nav a:hover{
+    color: turquoise;
+    transform: rotate(6deg);
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li{
+    margin-left: 20px;
+}
+
+.me{
+    background-color: #c5cae9;
+    padding: 60px 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.you{
+    max-width: 760px;
+}
+
+.me h1{
+    font-size: normal;
+    list-style: 4rem;
+    margin: 0;
+}
+
+.me p{
+    font-size: 1.18rem;
+    line-height: 1.6;
+}
+
+.just{
+    background-color: #3949ab;
+    color: white;
+    padding: 12px 13px;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 1.18rem;
+    display: inline-block;
+}
+
+.feature{
+    background-color: #e8eaf6;
+    padding: 60px 45px;
+    max-width: 1200px;
+}
+
+.feature-header{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 45px;
+    grid-row-gap: 45px;
+}
+
+.feature-item h3{
+    margin: 0;
+    color: #283593;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.feature-item p{
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+.footer{
+    color: #999;
+    text-align: center;
+    padding: 4px 2px;
+    font-size: 1rem;
+}
